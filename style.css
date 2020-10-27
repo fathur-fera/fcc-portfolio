@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@500;900&display=swap");
+
+:root {
+  --main-color: #25408f;
+  --secondary-color: #f15d6f;
+  --black: #242424;
+}
+body {
+  font-family: lato, serif;
+  color: var(--main-color);
+}
+
+h1 {
+  font-size: 10rem;
+  font-family: lato;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+#welcome-section p {
+  font-size: 0.8rem;
+}
+
+.navbar {
+  height: 100px;
+  background: white;
+}
+
+.navbar-brand {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+}
+
+.navbar a {
+  color: var(--main-color);
+  font-weight: 700;
+  margin: 0 1rem;
+}
+
+header {
+  min-height: 100vh;
+  background-image: url("./images/BG.svg");
+}
+
+#projects .row {
+  width: 100%;
+  padding: 10vh 0;
+}
+
+.project-card {
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.project-card h2 {
+  font-size: 1.5rem;
+}
+.project-card img {
+  width: 100%;
+  padding: 1rem;
+}
+
+#about img {
+  margin-bottom: 1rem;
+}
+
+#about {
+  margin-bottom: 5rem;
+}
+
+#contact {
+  padding: 5rem 0;
+  background-color: rgba(241, 91, 109, 0.1);
+}
+
+#contact a {
+  color: var(--main-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 1rem;
+}
+
+footer {
+  background-color: rgba(241, 91, 109, 0.1);
+}
+
+footer p {
+  opacity: 0.8;
+}
+
+@media (min-width: 960px) {
+  body,
+  #navbar {
+    padding: 0 50px;
+  }
+  #about p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1500px) {
+  body,
+  #navbar {
+    padding: 0 200px;
+  }
+}
